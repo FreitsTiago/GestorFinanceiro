@@ -1,0 +1,31 @@
+{
+  "name": "gestorfinanceiro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/main.js",
+    "dev": "nodemon src/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FreitsTiago/GestorFinanceiro.git"
+  },
+  "keywords": [],
+  "author": "TiagoFreitas",
+  "bugs": {
+    "url": "https://github.com/FreitsTiago/GestorFinanceiro/issues"
+  },
+  "homepage": "https://github.com/FreitsTiago/GestorFinanceiro#readme",
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2"
+  }
+}
